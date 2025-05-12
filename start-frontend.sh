@@ -6,4 +6,5 @@ fuser -k 3000/tcp 2>/dev/null || true
 echo "Starting frontend-only application..."
 
 # Change to client directory and start Vite
-cd client && npx vite --host
+#cd client && npx vite --host
+npx vite --host
