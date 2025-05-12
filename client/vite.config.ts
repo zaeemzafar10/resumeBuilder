@@ -17,7 +17,6 @@ if (process.env.NODE_ENV !== "production" && process.env.REPL_ID !== undefined) 
 }
 
 export default defineConfig({
-  root: path.resolve(__dirname, "client"),
   plugins: [
     react(),
     ...replitPlugins
@@ -29,13 +28,12 @@ export default defineConfig({
       "@assets": path.resolve("../attached_assets"),
     },
   },
-  // server: {
-  //   host: "0.0.0.0",
-  //   port: 3000
-  // },
+  server: {
+    host: "0.0.0.0",
+    port: 3000
+  },
   build: {
     outDir: "../dist",
     emptyOutDir: true,
   },
-  base: './',
 });
