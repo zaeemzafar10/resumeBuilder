@@ -1,0 +1,13 @@
+{
+  "buildCommand": "cd client && npm run build",
+  "outputDirectory": "dist",
+  "devCommand": "cd client && npm run dev",
+  "installCommand": "npm install",
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/" }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
