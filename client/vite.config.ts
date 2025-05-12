@@ -17,6 +17,7 @@ if (process.env.NODE_ENV !== "production" && process.env.REPL_ID !== undefined) 
 }
 
 export default defineConfig({
+  base: './',
   plugins: [
     react(),
     ...replitPlugins
