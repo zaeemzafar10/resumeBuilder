@@ -1,10 +1,12 @@
 // Static portfolio data
 
 export const profileData = {
-  name: "John Doe",
-  title: "Full Stack Developer",
-  bio: "Passionate full stack developer with 5+ years of experience building scalable web applications. Specialized in React, Node.js, and modern web technologies. I love solving complex problems and creating intuitive user experiences.",
-  email: "john.doe@example.com",
+  name: "Zaeem Uz Zafar",
+  title: "Backend Engineer",
+  bio: "Backend Engineer with experience in MERN and PERN stack applications. Specialized in developing robust backend systems using Node.js, Express.js with MongoDB and PostgreSQL. Proficient in implementing both HTTP and WebSocket for real-time applications.",
+  email: "zafarzaeemmern@gmail.com",
+  phone: "03343338690",
+  location: "Karachi, Pakistan",
   socialLinks: {
     github: "https://github.com",
     linkedin: "https://linkedin.com",
@@ -14,98 +16,88 @@ export const profileData = {
 
 export const skillsData = [
   {
-    title: "Frontend Development",
-    description: "Expertise in React, Redux, JavaScript ES6+, HTML5, CSS3, SASS, and Tailwind CSS."
-  },
-  {
     title: "Backend Development",
-    description: "Node.js, Express, RESTful APIs, GraphQL, MongoDB, PostgreSQL, Firebase."
+    description: "Node.js, Express.js, RESTful APIs, WebSockets for real-time applications, MongoDB, PostgreSQL."
   },
   {
-    title: "Mobile Development",
-    description: "React Native, Expo, Native app development, Cross-platform solutions."
+    title: "Frontend Development",
+    description: "React.js, Redux, JavaScript ES6+, API integrations in frontend applications."
   },
   {
-    title: "Cloud Services",
-    description: "AWS, Azure, Google Cloud Platform, Serverless architecture, CI/CD pipelines."
+    title: "Database Management",
+    description: "MongoDB (NoSQL), PostgreSQL (SQL), Mongoose ORM, Prisma ORM."
   },
   {
-    title: "UI/UX Design",
-    description: "User experience design, Wireframing, Prototyping, Figma, Adobe XD."
+    title: "API Development",
+    description: "Developing and integrating RESTful APIs, HTTP protocols, real-time communication."
   },
   {
-    title: "DevOps",
-    description: "Docker, Kubernetes, CI/CD, GitHub Actions, Jenkins, Infrastructure as Code."
+    title: "Deployment & DevOps",
+    description: "Heroku, cPanel, Git version control, CI/CD workflows."
+  },
+  {
+    title: "Software Development",
+    description: "Full-stack application architecture, dashboard development, website integrations."
   }
 ];
 
 export const educationData = [
   {
-    degree: "Master of Science in Computer Science",
-    year: "2017 - 2019",
-    institution: "Stanford University",
-    description: "Specialized in Artificial Intelligence and Machine Learning. Thesis on \"Deep Learning Applications in Healthcare.\""
+    degree: "Bachelor in Software Engineering",
+    year: "2017 - 2021",
+    institution: "Hamdard University, Karachi",
+    description: "Completed Software Engineering degree in 2021."
   },
   {
-    degree: "Bachelor of Science in Software Engineering",
-    year: "2013 - 2017",
-    institution: "Massachusetts Institute of Technology",
-    description: "Graduated with honors. Focused on web development and data structures. Led multiple team projects."
+    degree: "MERN Stack",
+    year: "July 2022 - Nov 2024",
+    institution: "Udemy",
+    description: "Comprehensive course on MongoDB, Express.js, React.js and Node.js stack development."
   },
   {
-    degree: "AWS Certified Solutions Architect",
-    year: "2020",
-    institution: "Amazon Web Services",
-    description: "Professional certification in designing distributed systems on AWS platform."
+    degree: "React",
+    year: "Jan 2021 - Feb 2024",
+    institution: "Udemy",
+    description: "In-depth React.js learning focused on modern front-end development techniques."
+  },
+  {
+    degree: "Javascript and Ecmascript",
+    year: "Jan 2020 - Apr 2020",
+    institution: "Udemy",
+    description: "Learning JavaScript fundamentals and modern ECMAScript features."
   }
 ];
 
 export const projectsData = [
   {
-    title: "E-commerce Platform",
-    description: "A full-featured online store with product catalog, shopping cart, payment integration, and admin dashboard.",
-    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    demoLink: "https://example.com/demo",
-    codeLink: "https://github.com"
-  },
-  {
-    title: "Healthcare Dashboard",
-    description: "A patient management system with appointment scheduling, medical records, and analytics.",
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
-    technologies: ["React", "Express", "PostgreSQL", "D3.js"],
-    demoLink: "https://example.com/demo",
-    codeLink: "https://github.com"
-  },
-  {
-    title: "Fitness Tracker App",
-    description: "A mobile application for tracking workouts, nutrition, and progress with social features.",
-    image: "https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
-    technologies: ["React Native", "Firebase", "Redux"],
-    demoLink: "https://example.com/demo",
-    codeLink: "https://github.com"
-  },
-  {
-    title: "Data Visualization Platform",
-    description: "Interactive dashboard for visualizing complex datasets with real-time updates and filtering.",
+    title: "Real-time Dashboard System",
+    description: "A comprehensive dashboard system using WebSockets for real-time data updates, built with the MERN stack.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
-    technologies: ["Vue.js", "D3.js", "WebSockets"],
+    technologies: ["React", "Node.js", "Express", "MongoDB", "WebSockets"],
     demoLink: "https://example.com/demo",
     codeLink: "https://github.com"
   },
   {
-    title: "Real-time Chat Application",
-    description: "Messaging platform with real-time updates, file sharing, and group conversations.",
+    title: "E-commerce Platform",
+    description: "Full-stack e-commerce solution with product catalog, user authentication, and payment integration using PERN stack.",
+    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+    technologies: ["React", "Node.js", "Express", "PostgreSQL", "Prisma"],
+    demoLink: "https://example.com/demo",
+    codeLink: "https://github.com"
+  },
+  {
+    title: "API Integration System",
+    description: "A centralized system for third-party API integrations, providing unified interface for frontend applications.",
     image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
-    technologies: ["React", "Socket.io", "Express"],
+    technologies: ["Node.js", "Express", "MongoDB", "Mongoose"],
     demoLink: "https://example.com/demo",
     codeLink: "https://github.com"
   },
   {
-    title: "Content Management System",
-    description: "Headless CMS with rich text editing, media management, and API for content delivery.",
+    title: "Content Management Dashboard",
+    description: "A dashboard for managing website content with real-time updates and role-based access control.",
     image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
-    technologies: ["Next.js", "GraphQL", "AWS S3"],
+    technologies: ["React", "Redux", "Node.js", "MongoDB"],
     demoLink: "https://example.com/demo",
     codeLink: "https://github.com"
   }

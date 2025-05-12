@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 import { profileData } from "@/data/portfolioData";
 
 export default function HeroSection() {
@@ -8,7 +8,7 @@ export default function HeroSection() {
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/3 flex justify-center">
             <img 
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400" 
+              src="https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400" 
               alt="Professional headshot" 
               className="rounded-full w-64 h-64 object-cover border-4 border-white shadow-lg"
             />
@@ -19,15 +19,32 @@ export default function HeroSection() {
             <p className="text-lg mb-6 text-gray-700">
               {profileData.bio}
             </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+              <div className="flex items-center text-gray-700">
+                <FaEnvelope className="mr-2" />
+                <a href={`mailto:${profileData.email}`} className="hover:text-primary">
+                  {profileData.email}
+                </a>
+              </div>
+              <div className="flex items-center text-gray-700">
+                <FaPhone className="mr-2" />
+                <a href={`tel:${profileData.phone}`} className="hover:text-primary">
+                  {profileData.phone}
+                </a>
+              </div>
+              <div className="flex items-center text-gray-700 md:col-span-2">
+                <FaMapMarkerAlt className="mr-2" />
+                <span>{profileData.location}</span>
+              </div>
+            </div>
+            
             <div className="flex space-x-4">
               <a href={profileData.socialLinks.github} target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-primary text-2xl">
                 <FaGithub />
               </a>
               <a href={profileData.socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-primary text-2xl">
                 <FaLinkedin />
-              </a>
-              <a href={profileData.socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-primary text-2xl">
-                <FaTwitter />
               </a>
             </div>
           </div>

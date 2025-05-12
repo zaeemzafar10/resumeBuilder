@@ -38,7 +38,7 @@ export default function Header() {
                 closeMobileMenu();
               }}
             >
-              Portfolio
+              Zaeem Uz Zafar
             </a>
           </div>
           
@@ -63,6 +63,16 @@ export default function Header() {
               }}
             >
               Skills
+            </a>
+            <a 
+              href="#experience" 
+              className="text-foreground hover:text-primary transition-colors"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("experience");
+              }}
+            >
+              Experience
             </a>
             <a 
               href="#education" 
@@ -117,6 +127,16 @@ export default function Header() {
                 }}
               >
                 Skills
+              </a>
+              <a 
+                href="#experience" 
+                className="text-foreground hover:text-primary transition-colors"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection("experience");
+                }}
+              >
+                Experience
               </a>
               <a 
                 href="#education" 
