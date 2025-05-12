@@ -8,9 +8,9 @@ export const profileData = {
   phone: "03343338690",
   location: "Karachi, Pakistan",
   socialLinks: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com"
+    github: "https://github.com/zaeemzafar10",
+    linkedin: "https://www.linkedin.com/in/zaeem-uz-zafar-02bb01190",
+    twitter: "https://x.com/zaeemuzzafar/status/1528627024046264320"
   }
 };
 
@@ -123,7 +123,7 @@ export const projectsData = [
     description: "A mobile app dating app",
     image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
     technologies: ["React", "Redux", "Node.js", "MongoDB"],
-    demoLink: "https://example.com/demo",
+    demoLink: "https://play.google.com/store/apps/details?id=com.parvindatingapp&hl=en",
     codeLink: "https://github.com"
   },
   {
@@ -131,7 +131,7 @@ export const projectsData = [
     description: "An offline survey app , for franchise , superAdmin and users",
     image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
     technologies: ["React", "Redux", "Node.js", "MongoDB"],
-    demoLink: "https://example.com/demo",
+    demoLink: "https://play.google.com/store/apps/details?id=com.cryoguys&hl=en",
     codeLink: "https://github.com"
   },
   {
