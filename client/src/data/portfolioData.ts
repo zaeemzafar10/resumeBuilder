@@ -48,12 +48,9 @@ export const educationData = [
     institution: "Hamdard University, Karachi",
     description: "Completed Software Engineering degree in 2021."
   },
-  {
-    degree: "MERN Stack",
-    year: "July 2022 - Nov 2024",
-    institution: "Udemy",
-    description: "Comprehensive course on MongoDB, Express.js, React.js and Node.js stack development."
-  },
+];
+
+export const certificationData = [
   {
     degree: "React",
     year: "Jan 2021 - Feb 2024",
@@ -65,8 +62,14 @@ export const educationData = [
     year: "Jan 2020 - Apr 2020",
     institution: "Udemy",
     description: "Learning JavaScript fundamentals and modern ECMAScript features."
-  }
-];
+  },
+  {
+    degree: "MERN Stack App",
+    year: "Jan 2022 - Feb 2023",
+    institution: "Udemy",
+    description: "In-depth Node js with framework Express js and Mongodb."
+  },
+]
 
 export const projectsData = [
   {
