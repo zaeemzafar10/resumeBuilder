@@ -1,5 +1,5 @@
 // Static portfolio data
-
+import Instapet from "../../../attached_assets/ins1.PNG";
 export const profileData = {
   name: "Zaeem Uz Zafar",
   title: "Backend Engineer",
@@ -84,12 +84,13 @@ export const projectsData = [
     image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
     technologies: ["React", "Redux", "Node.js", "MongoDB"],
     demoLink: "https://predivauthmarketplace.com/",
-    codeLink: "https://github.com"
+    codeLink: "https://github.com",
+
   },
   {
     title: "Instapet",
     description: "A pet delievering platform containg driver , user and admin panel with real-time tracking.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+    image: "",
     technologies: ["React", "Node.js", "Express", "MongoDB", "WebSockets"],
     demoLink: "https://instapet.co/",
     codeLink: "https://github.com"
@@ -105,7 +106,7 @@ export const projectsData = [
   {
     title: "Laundry",
     description: "A laundry management system with user authentication, category , subCategory , products , Google Map apis and order tracking, and payment processing.",
-    image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+    image: "https://res.cloudinary.com/ft-bounty/image/upload/c_fill,g_auto/v1747065059962/nvft-user-files/production/f4d68c35-0109-4d3d-a28a-7ab7f881256a/uploads/fbe64e9f-c985-447d-b774-f5021d776e52/original.octet-stream",
     technologies: ["Node.js", "Express", "MongoDB", "Mongoose"],
     demoLink: "https://react.customdev.solutions/laundry/",
     codeLink: "https://github.com"
@@ -113,7 +114,7 @@ export const projectsData = [
   {
     title: "Golden Love",
     description: "A webApp dating sites",
-    image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+    image: "https://res.cloudinary.com/ft-bounty/image/upload/c_fill,g_auto/v1747065348349/nvft-user-files/production/f4d68c35-0109-4d3d-a28a-7ab7f881256a/uploads/12f15841-c0d9-4466-aa0e-a5228138cff9/original.png",
     technologies: ["React", "Redux", "Node.js", "MongoDB"],
     demoLink: "https://goldenloveconnections.com/",
     codeLink: "https://github.com"
