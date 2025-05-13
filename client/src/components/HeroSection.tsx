@@ -8,7 +8,7 @@ export default function HeroSection() {
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/3 flex justify-center">
             <img 
-              src="https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400" 
+              src="https://res.cloudinary.com/ft-bounty/image/upload/c_fill,g_auto/v1747121763627/nvft-user-files/production/f4d68c35-0109-4d3d-a28a-7ab7f881256a/uploads/56687749-f93b-4dc5-82bb-d4652a10bfcb/original.png" 
               alt="Professional headshot" 
               className="rounded-full w-64 h-64 object-cover border-4 border-white shadow-lg"
             />

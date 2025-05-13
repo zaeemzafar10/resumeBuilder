@@ -1,5 +1,4 @@
-// Static portfolio data
-import Instapet from "../../../attached_assets/ins1.PNG";
+
 export const profileData = {
   name: "Zaeem Uz Zafar",
   title: "Backend Engineer",
@@ -58,16 +57,16 @@ export const educationData = [
 
 export const certificationData = [
   {
-    degree: "React",
-    year: "Jan 2021 - Feb 2024",
-    institution: "Udemy",
-    description: "In-depth React.js learning focused on modern front-end development techniques."
-  },
-  {
     degree: "Javascript and Ecmascript",
     year: "Jan 2020 - Apr 2020",
     institution: "Udemy",
     description: "Learning JavaScript fundamentals and modern ECMAScript features."
+  },
+  {
+    degree: "React",
+    year: "Jan 2021 - Feb 2024",
+    institution: "Udemy",
+    description: "In-depth React.js learning focused on modern front-end development techniques."
   },
   {
     degree: "MERN Stack App",
@@ -81,7 +80,7 @@ export const projectsData = [
   {
     title: "Predivauth",
     description: "A ecommerce Marketplace platform with user authentication, product management, and payment processing using stripe.",
-    image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+    image: "https://res.cloudinary.com/ft-bounty/image/upload/c_fill,g_auto/v1747120848704/nvft-user-files/production/f4d68c35-0109-4d3d-a28a-7ab7f881256a/uploads/ab623e64-95cc-4193-b40a-09b308b2f1f0/original.png",
     technologies: ["React", "Redux", "Node.js", "MongoDB"],
     demoLink: "https://predivauthmarketplace.com/",
     codeLink: "https://github.com",
@@ -90,7 +89,7 @@ export const projectsData = [
   {
     title: "Instapet",
     description: "A pet delievering platform containg driver , user and admin panel with real-time tracking.",
-    image: "",
+    image: "https://res.cloudinary.com/ft-bounty/image/upload/c_fill,g_auto/v1747120883079/nvft-user-files/production/f4d68c35-0109-4d3d-a28a-7ab7f881256a/uploads/669aa122-6137-4894-9fd2-453ea0ba3a8c/original.png",
     technologies: ["React", "Node.js", "Express", "MongoDB", "WebSockets"],
     demoLink: "https://instapet.co/",
     codeLink: "https://github.com"
@@ -98,7 +97,7 @@ export const projectsData = [
   {
     title: "Pet Care",
     description: "A pet care management system with user authentication, pet profiles, assiging Employees and appointment scheduling.",
-    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+    image: "https://res.cloudinary.com/ft-bounty/image/upload/c_fill,g_auto/v1747120998995/nvft-user-files/production/f4d68c35-0109-4d3d-a28a-7ab7f881256a/uploads/4d7cde34-0fd4-49c4-836e-dc0a546cdac8/original.png",
     technologies: ["React", "Node.js", "Express", "PostgreSQL", "Prisma"],
     demoLink: "https://react.customdev.solutions/dogcare/",
     codeLink: "https://github.com"
@@ -122,7 +121,7 @@ export const projectsData = [
   {
     title: "Parvin",
     description: "A mobile app dating app",
-    image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+    image: "https://res.cloudinary.com/ft-bounty/image/upload/c_fill,g_auto/v1747121028556/nvft-user-files/production/f4d68c35-0109-4d3d-a28a-7ab7f881256a/uploads/8264a1e1-0ecd-49e7-9ece-29cd1031724d/original.png",
     technologies: ["React", "Redux", "Node.js", "MongoDB"],
     demoLink: "https://play.google.com/store/apps/details?id=com.parvindatingapp&hl=en",
     codeLink: "https://github.com"
@@ -130,7 +129,7 @@ export const projectsData = [
   {
     title: "Cry o Guys",
     description: "An offline survey app , for franchise , superAdmin and users",
-    image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+    image: "https://res.cloudinary.com/ft-bounty/image/upload/c_fill,g_auto/v1747121065995/nvft-user-files/production/f4d68c35-0109-4d3d-a28a-7ab7f881256a/uploads/ddbd6a27-617b-405d-b474-7763e0b67f54/original.octet-stream",
     technologies: ["React", "Redux", "Node.js", "MongoDB"],
     demoLink: "https://play.google.com/store/apps/details?id=com.cryoguys&hl=en",
     codeLink: "https://github.com"
@@ -138,7 +137,7 @@ export const projectsData = [
   {
     title: "Kori Hintin",
     description: "A saloon mobile app for hair styler registered and customer appointments.",
-    image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
+    image: "https://res.cloudinary.com/ft-bounty/image/upload/c_fill,g_auto/v1747121332960/nvft-user-files/production/f4d68c35-0109-4d3d-a28a-7ab7f881256a/uploads/7277f7ab-f544-4800-a4e2-2420e4f65ae1/original.octet-stream",
     technologies: ["React", "Redux", "Node.js", "MongoDB"],
     demoLink: "https://react.customdev.solutions/koriHintin/admin/signin",
     codeLink: "https://github.com"

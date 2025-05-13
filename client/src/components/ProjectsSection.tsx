@@ -31,11 +31,11 @@ export default function ProjectsSection() {
                       <FaLink className="inline-block mr-1" /> Demo
                     </a>
                   )}
-                  {project.codeLink && (
+                  {/* {project.codeLink && (
                     <a href={project.codeLink} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors">
                       <FaGithub className="inline-block mr-1" /> Code
                     </a>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>

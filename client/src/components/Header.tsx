@@ -92,7 +92,7 @@ export default function Header() {
                 scrollToSection("projects");
               }}
             >
-              Projects
+              Portfolio
             </a>
           </nav>
           
@@ -156,7 +156,7 @@ export default function Header() {
                   scrollToSection("projects");
                 }}
               >
-                Projects
+                Portfolio
               </a>
             </div>
           </div>
