@@ -1,4 +1,4 @@
-import { FaLink, FaGithub } from "react-icons/fa";
+import { FaLink } from "react-icons/fa";
 import { projectsData } from "@/data/portfolioData";
 
 export default function ProjectsSection() {
