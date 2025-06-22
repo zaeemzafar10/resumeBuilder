@@ -7,7 +7,7 @@ export const profileData = {
   phone: "03343338690",
   location: "Karachi, Pakistan",
   socialLinks: {
-    github: "https://github.com/zaeemzafar10",
+    github: "https://github.com/Sam1001-stack",
     linkedin: "https://www.linkedin.com/in/zaeem-uz-zafar-02bb01190",
     twitter: "https://x.com/zaeemuzzafar/status/1528627024046264320"
   }

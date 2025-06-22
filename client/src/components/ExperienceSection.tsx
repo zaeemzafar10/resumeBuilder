@@ -10,18 +10,11 @@ const experienceData = [
     description: "Working on MERN and PERN stack backend technologies using Node.js with Express.js framework. Implementing solutions with both NoSQL (MongoDB) and SQL (PostgreSQL) databases using Mongoose and Prisma ORMs. Building real-time applications with HTTP and WebSocket protocols. Integrating APIs with React.js for multiple dashboards and websites."
   },
   {
-    title: "Backend Developer",
-    company: "Jumpace Pvt Ltd",
-    location: "Karachi",
-    duration: "August 2023 — May 2024",
-    description: "Developed backend solutions using MERN stack with Node.js and Express.js framework. Implemented MongoDB database solutions using Mongoose ORM. Created real-time applications with HTTP and WebSocket protocols. Integrated APIs with React.js for multiple dashboards and websites."
-  },
-  {
     title: "Software Engineer",
-    company: "Binate Digital",
+    company: "GFX WebStudio",
     location: "Karachi",
-    duration: "May 2022 — August 2023",
-    description: "Built backend systems using MERN stack with Node.js and Express.js. Implemented MongoDB database solutions with Mongoose ORM. Integrated APIs with React.js for multiple dashboards and websites."
+    duration: "May 2022 — April 2024",
+    description: "Developed backend solutions using MERN stack with Node.js and Express.js framework. Implemented MongoDB database solutions using Mongoose ORM. Created real-time applications with HTTP and WebSocket protocols. Integrated APIs with React.js for multiple dashboards and websites."
   },
   {
     title: "Jr MERN Developer",
