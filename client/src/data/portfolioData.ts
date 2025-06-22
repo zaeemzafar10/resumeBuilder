@@ -16,27 +16,27 @@ export const profileData = {
 export const skillsData = [
   {
     title: "Backend Development",
-    description: "Node.js, Express.js, RESTful APIs, WebSockets for real-time applications, MongoDB, PostgreSQL."
+    description: "Node.js, Express.js, Nest.js, RESTful APIs, WebSockets for real-time applications, MongoDB, MySQl, PostgreSQL."
   },
   {
     title: "Frontend Development",
-    description: "React.js, Redux, JavaScript ES6+, API integrations in frontend applications."
+    description: "React.js, Nest.js , Redux , ReduxToolKit , Redux Query, JavaScript ES6+, API integrations in frontend applications."
   },
   {
     title: "Database Management",
-    description: "MongoDB (NoSQL), PostgreSQL (SQL), Mongoose ORM, Prisma ORM."
+    description: "MongoDB (NoSQL), PostgreSQL , MySql (SQL), Mongoose and Prisma ORM."
   },
   {
     title: "API Development",
-    description: "Developing and integrating RESTful APIs, HTTP protocols, real-time communication."
+    description: "Developing and integrating RESTful APIs, Open AI , HTTP protocols, real-time communication."
   },
   {
     title: "Deployment & DevOps",
-    description: "Heroku, cPanel, Git version control, CI/CD workflows."
+    description: "Heroku, Vercel , cPanel, Git version control, CI/CD workflows."
   },
   {
     title: "Software Development",
-    description: "Full-stack application architecture, dashboard development, website integrations."
+    description: "Full-stack application architecture, dashboard development, webApp and website integrations."
   }
 ];
 
