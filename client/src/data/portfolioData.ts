@@ -48,10 +48,10 @@ export const educationData = [
     description: "Completed Software Engineering degree in 2021."
   },
   {
-    degree: "Master in Software Engineering",
+    degree: "Master in Cyber Security",
     year: "2025 - 2027",
-    institution: "University of Hertfordshire Online UK",
-    description: "Currently doing master's in Software Engineering."
+    institution: "N.E.D University",
+    description: "Currently doing master's in Cyber security."
   },
 ];
 
