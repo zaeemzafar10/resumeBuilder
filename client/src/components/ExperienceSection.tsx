@@ -51,6 +51,7 @@ export default function ExperienceSection() {
               </div>
               <p className="text-gray-700">{exp.description}</p>
               
+              {
                 !exp.experienceLetter == null ?
                  (
                  <p className="text-gray-700">Experience Letter#{exp.experienceLetter}</p>
@@ -58,10 +59,7 @@ export default function ExperienceSection() {
                 (
                   null
                 )
-
-                
-              
-             
+              }
             </div>
           ))}
         </div>
