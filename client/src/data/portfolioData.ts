@@ -2,9 +2,9 @@
 export const profileData = {
   name: "Zaeem Uz Zafar",
   title: "Backend Engineer",
-  bio: "Backend Engineer with experience in MERN and PERN stack applications. Specialized in developing robust backend systems using Node.js, Express.js with MongoDB and PostgreSQL. Proficient in implementing both HTTP and WebSocket for real-time applications.",
+  bio: "Backend Engineer with experience in MERN and PERN stack applications. Specialized in developing robust backend systems using Node.js, Express.js , Nest.js with MongoDB , MySql and PostgreSQL. Proficient in implementing both HTTP and WebSocket for real-time applications.",
   email: "zafarzaeemmern@gmail.com",
-  phone: "03343338690",
+  phone: "+92 3343338690",
   location: "Karachi, Pakistan",
   socialLinks: {
     github: "https://github.com/Sam1001-stack",
