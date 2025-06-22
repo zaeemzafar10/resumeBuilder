@@ -50,7 +50,7 @@ export default function ExperienceSection() {
                 <span className="text-primary font-medium mt-2 md:mt-0">{exp.duration}</span>
               </div>
               <p className="text-gray-700">{exp.description}</p>
-              <p className="text-gray-700">{!exp.experienceLetter == null ? exp.experienceLetter : null}</p>
+              <p className="text-gray-700">Experience Letter:{!exp.experienceLetter == null ? exp.experienceLetter : null}</p>
             </div>
           ))}
         </div>
