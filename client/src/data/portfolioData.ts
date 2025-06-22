@@ -20,7 +20,7 @@ export const skillsData = [
   },
   {
     title: "Frontend Development",
-    description: "React.js, Nest.js , Redux , ReduxToolKit , Redux Query, JavaScript ES6+, API integrations in frontend applications."
+    description: "React.js, Next.js , Redux , ReduxToolKit , Redux Query, JavaScript ES6+, API integrations in frontend applications."
   },
   {
     title: "Database Management",
