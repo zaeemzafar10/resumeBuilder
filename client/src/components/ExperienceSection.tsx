@@ -50,11 +50,12 @@ export default function ExperienceSection() {
                 <span className="text-primary font-medium mt-2 md:mt-0">{exp.duration}</span>
               </div>
               <p className="text-gray-700">{exp.description}</p>
-              
+              <br></br>
+             
               {
-                !exp.experienceLetter == null ?
+                exp.experienceLetter?
                  (
-                 <p className="text-gray-700">Experience Letter#{exp.experienceLetter}</p>
+                 <p className="text-gray-700" onClick={() =>  window.open(exp?.experienceLetter, '_blank')}>Experience Letter#</p>
                 ) : 
                 (
                   null
