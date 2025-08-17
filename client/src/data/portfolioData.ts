@@ -74,7 +74,7 @@ export const projectsData = [
   {
     title: "Center Piece",
     description: "🚀 E-Commerce Cards Purchasing Platform – A scalable web app for seamless card purchasing, role-based management, real-time chat, and future-ready bidding system.",
-    image: "https://res-console.cloudinary.com/dyimz6wal/thumbnails/v1/image/upload/v1755452839/Q2FwdHVyZTMyMV96cXk0dzI=/drilldown",
+    image: "https://res.cloudinary.com/dyimz6wal/image/upload/v1755452839/Capture321_zqy4w2.jpg",
     technologies: ["React", "Express" , "Redux", "Node.js", "MongoDB"],
     demoLink: "https://react.customdev.solutions/centerpiece/",
     codeLink: "https://github.com",
@@ -83,7 +83,7 @@ export const projectsData = [
     {
     title: "168 Store",
     description: "A chinese ecommerce Marketplace platform with user authentication, product management, and payment processing using stripe.",
-    image: "https://res-console.cloudinary.com/dyimz6wal/thumbnails/v1/image/upload/v1755452650/Q2FwdHVyZTExX3UweXNlcA==/drilldown",
+    image: "https://res.cloudinary.com/dyimz6wal/image/upload/v1755452660/Capture11_xdl9lh.jpg",
     technologies: ["React", "Express" , "Redux", "Node.js", "MongoDB"],
     demoLink: "https://react.customdev.solutions/168ecommerce/",
     codeLink: "https://github.com",
