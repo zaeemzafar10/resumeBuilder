@@ -46,13 +46,7 @@ export const educationData = [
     year: "2017 - 2021",
     institution: "Hamdard University, Karachi",
     description: "Completed Software Engineering degree in 2021."
-  },
-  {
-    degree: "Master in Cyber Security",
-    year: "2025 - 2027",
-    institution: "N.E.D University",
-    description: "Currently doing master's in Cyber security."
-  },
+  }
 ];
 
 export const certificationData = [
@@ -77,6 +71,24 @@ export const certificationData = [
 ]
 
 export const projectsData = [
+  {
+    title: "Center Piece",
+    description: "🚀 E-Commerce Cards Purchasing Platform – A scalable web app for seamless card purchasing, role-based management, real-time chat, and future-ready bidding system.",
+    image: "https://res-console.cloudinary.com/dyimz6wal/thumbnails/v1/image/upload/v1755452839/Q2FwdHVyZTMyMV96cXk0dzI=/drilldown",
+    technologies: ["React", "Express" , "Redux", "Node.js", "MongoDB"],
+    demoLink: "https://react.customdev.solutions/centerpiece/",
+    codeLink: "https://github.com",
+
+  },
+    {
+    title: "168 Store",
+    description: "A chinese ecommerce Marketplace platform with user authentication, product management, and payment processing using stripe.",
+    image: "https://res-console.cloudinary.com/dyimz6wal/thumbnails/v1/image/upload/v1755452650/Q2FwdHVyZTExX3UweXNlcA==/drilldown",
+    technologies: ["React", "Express" , "Redux", "Node.js", "MongoDB"],
+    demoLink: "https://react.customdev.solutions/168ecommerce/",
+    codeLink: "https://github.com",
+
+  },
   {
     title: "Predivauth",
     description: "A ecommerce Marketplace platform with user authentication, product management, and payment processing using stripe.",
