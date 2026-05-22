@@ -1,4 +1,6 @@
 import syrenadateImage from "@/assets/images/syrenadate.png";
+import chillnparkImage from "@/assets/images/chillnpark.png";
+import cardiiImage from "@/assets/images/cardii.png";
 
 export const profileData = {
   name: "Zaeem Uz Zafar",
@@ -88,18 +90,18 @@ export const projectsData = [
   },
   {
     title: "Chill N Park",
-    description: "A smart parking and leisure platform for finding nearby parking spots, booking spaces, and discovering chill-out zones in urban areas.",
-    image: "https://placehold.co/600x400/0ea5e9/ffffff?text=Chill+N+Park",
-    technologies: ["React", "Express", "Node.js", "PostgreSQL", "Google Maps API"],
-    demoLink: "https://chillnpark.example.com/",
+    description: "A location-based platform that uses your GPS coordinates to find public parking, private parking, food trucks, gas stations, EV stations, Tesla stations, and notifications within a 5km radius on Google Maps. Admin manages all location types and content; the user app shows only searched categories with map markers and GPS-guided navigation for nearby places.",
+    image: chillnparkImage,
+    technologies: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Google Maps API", "WebSockets"],
+    demoLink: "https://react.customdev.solutions/chill_n_park/admin/signin",
     codeLink: "https://github.com",
   },
   {
     title: "Cardii",
-    description: "A digital card management app for creating, sharing, and organizing business and loyalty cards with QR code support and wallet integration.",
-    image: "https://placehold.co/600x400/f97316/ffffff?text=Cardii",
-    technologies: ["React", "Redux", "Node.js", "MongoDB", "Stripe"],
-    demoLink: "https://cardii.example.com/",
+    description: "A complete mobility platform with three roles: vendors sign up separately with Smile ID verification and post self-drive, professional driver, and buy & sell ads, tracking ad details and monthly/yearly revenue in their portal; users sign up, check availability, place orders, and complete activities end-to-end until the vendor files a dispute; admins manage users and vendors (suspend/activate accounts), active/inactive ads, orders, payments, vendor payouts, commission settings, disputes, reviews, settings, and location zones.",
+    image: cardiiImage,
+    technologies: ["React", "Redux", "Node.js", "Express", "MongoDB", "Stripe", "Smile ID"],
+    demoLink: "https://react.customdev.solutions/cardii/",
     codeLink: "https://github.com",
   },
   {
