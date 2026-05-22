@@ -1,8 +1,8 @@
 import { certificationData } from "@/data/portfolioData";
 
-export default function EducationSection() {
+export default function CertificationSection() {
   return (
-    <section id="education" className="py-16 bg-gradient-to-r from-blue-50 to-indigo-50">
+    <section id="certifications" className="py-16 bg-gradient-to-r from-blue-50 to-indigo-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold mb-12 text-center">Certifications</h2>
         

@@ -75,16 +75,6 @@ export default function Header() {
               Experience
             </a>
             <a 
-              href="#education" 
-              className="text-foreground hover:text-primary transition-colors"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection("education");
-              }}
-            >
-              Education
-            </a>
-            <a 
               href="#projects" 
               className="text-foreground hover:text-primary transition-colors"
               onClick={(e) => {
@@ -93,6 +83,26 @@ export default function Header() {
               }}
             >
               Portfolio
+            </a>
+            <a 
+              href="#certifications" 
+              className="text-foreground hover:text-primary transition-colors"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("certifications");
+              }}
+            >
+              Certifications
+            </a>
+            <a 
+              href="#education" 
+              className="text-foreground hover:text-primary transition-colors"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("education");
+              }}
+            >
+              Education
             </a>
           </nav>
           
@@ -139,16 +149,6 @@ export default function Header() {
                 Experience
               </a>
               <a 
-                href="#education" 
-                className="text-foreground hover:text-primary transition-colors"
-                onClick={(e) => {
-                  e.preventDefault();
-                  scrollToSection("education");
-                }}
-              >
-                Education
-              </a>
-              <a 
                 href="#projects" 
                 className="text-foreground hover:text-primary transition-colors"
                 onClick={(e) => {
@@ -157,6 +157,26 @@ export default function Header() {
                 }}
               >
                 Portfolio
+              </a>
+              <a 
+                href="#certifications" 
+                className="text-foreground hover:text-primary transition-colors"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection("certifications");
+                }}
+              >
+                Certifications
+              </a>
+              <a 
+                href="#education" 
+                className="text-foreground hover:text-primary transition-colors"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection("education");
+                }}
+              >
+                Education
               </a>
             </div>
           </div>

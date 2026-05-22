@@ -1,6 +1,7 @@
 import syrenadateImage from "@/assets/images/syrenadate.png";
 import chillnparkImage from "@/assets/images/chillnpark.png";
 import cardiiImage from "@/assets/images/cardii.png";
+import resumeAiImage from "@/assets/images/resume-ai.png";
 
 export const profileData = {
   name: "Zaeem Uz Zafar",
@@ -46,7 +47,7 @@ export const skillsData = [
 export const educationData = [
   {
     degree: "Master in Artificial Intelligence",
-    year: "Nov 2027",
+    year: "2026 - Nov 2027",
     institution: "Berlin School of Business and Innovation (BSBI) | Berlin, Germany",
     description: "Enrolled in Master's degree in Artificial Intelligence in November 2027."
   },
@@ -80,6 +81,14 @@ export const certificationData = [
 ]
 
 export const projectsData = [
+  {
+    title: "AI Resume's Analyzer",
+    description: "An AI-powered resume platform (currently in progress) where candidates build ATS-friendly resumes from their details and export PDFs in English and Dutch, with European language support planned. Candidates paste a job description with their profile to generate and save a tailored resume. HR pastes a job description, uploads bulk candidate resumes, and AI ranks the top 10 matches by skills, experience, and education scoring—then sends Zoom interview invites to selected candidates. Subscription-based access for HR and candidates.",
+    image: resumeAiImage,
+    technologies: ["Next.js", "Redux RTK Query", "Node.js", "Express", "MongoDB", "Pinecone", "RAG", "OpenAI", "Gemini AI"],
+    demoLink: "https://german-resume-ai-builder.vercel.app/de",
+    codeLink: "https://github.com",
+  },
   {
     title: "Syrena Date",
     description: "A global dating platform connecting verified singles from 150+ countries with AI-powered matching, HD video calls via Agora, real-time chat and messaging, push notifications, Stripe-powered gift purchases for matched recommendations, and paid subscription plans.",
