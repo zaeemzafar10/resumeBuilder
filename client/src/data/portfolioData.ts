@@ -1,11 +1,12 @@
+import syrenadateImage from "@/assets/images/syrenadate.png";
 
 export const profileData = {
   name: "Zaeem Uz Zafar",
   title: "Backend Engineer | MERN & PERN Stack | Remote & Freelance",
   bio: "Backend Engineer with expertise in MERN and PERN stack applications. Specialized in building robust backend systems using Node.js, Express.js, Nest.js with MongoDB, MySQL, and PostgreSQL. Skilled in implementing both HTTP and WebSocket for real-time applications. Open to remote, part-time, and freelance opportunities across Europe and the USA, delivering scalable, efficient, and high-quality backend solutions.",
   email: "zafarzaeemmern@gmail.com",
-  phone: "+92 3343338690",
-  location: "Karachi, Pakistan",
+  phone: "+49 163 652 15 60",
+  location: "Berlin, Germany",
   socialLinks: {
     github: "https://github.com/Sam1001-stack",
     linkedin: "https://www.linkedin.com/in/zaeem-uz-zafar-02bb01190",
@@ -42,9 +43,15 @@ export const skillsData = [
 
 export const educationData = [
   {
+    degree: "Master in Artificial Intelligence",
+    year: "Nov 2027",
+    institution: "Berlin School of Business and Innovation (BSBI) | Berlin, Germany",
+    description: "Enrolled in Master's degree in Artificial Intelligence in November 2027."
+  },
+  {
     degree: "Bachelor in Software Engineering",
     year: "2017 - 2021",
-    institution: "Hamdard University, Karachi",
+    institution: "Hamdard University | Karachi, Pakistan",
     description: "Completed Software Engineering degree in 2021."
   }
 ];
@@ -71,6 +78,70 @@ export const certificationData = [
 ]
 
 export const projectsData = [
+  {
+    title: "Syrena Date",
+    description: "A global dating platform connecting verified singles from 150+ countries with AI-powered matching, HD video calls via Agora, real-time chat and messaging, push notifications, Stripe-powered gift purchases for matched recommendations, and paid subscription plans.",
+    image: syrenadateImage,
+    technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Mongoose", "Agora", "Stripe"],
+    demoLink: "https://react.customdev.solutions/syrenadate/",
+    codeLink: "https://github.com",
+  },
+  {
+    title: "Chill N Park",
+    description: "A smart parking and leisure platform for finding nearby parking spots, booking spaces, and discovering chill-out zones in urban areas.",
+    image: "https://placehold.co/600x400/0ea5e9/ffffff?text=Chill+N+Park",
+    technologies: ["React", "Express", "Node.js", "PostgreSQL", "Google Maps API"],
+    demoLink: "https://chillnpark.example.com/",
+    codeLink: "https://github.com",
+  },
+  {
+    title: "Cardii",
+    description: "A digital card management app for creating, sharing, and organizing business and loyalty cards with QR code support and wallet integration.",
+    image: "https://placehold.co/600x400/f97316/ffffff?text=Cardii",
+    technologies: ["React", "Redux", "Node.js", "MongoDB", "Stripe"],
+    demoLink: "https://cardii.example.com/",
+    codeLink: "https://github.com",
+  },
+  {
+    title: "100Square Games",
+    description: "An online gaming platform offering casual and multiplayer games with user profiles, leaderboards, and in-app rewards.",
+    image: "https://placehold.co/600x400/8b5cf6/ffffff?text=100Square+Games",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "WebSockets"],
+    demoLink: "https://100squaregames.example.com/",
+    codeLink: "https://github.com",
+  },
+  {
+    title: "Petwarehouse",
+    description: "An e-commerce platform for pet supplies with product catalog, inventory management, order tracking, and admin dashboard.",
+    image: "https://placehold.co/600x400/22c55e/ffffff?text=Petwarehouse",
+    technologies: ["React", "Redux", "Node.js", "Express", "MongoDB"],
+    demoLink: "https://petwarehouse.example.com/",
+    codeLink: "https://github.com",
+  },
+  {
+    title: "Genematric",
+    description: "A genomics analytics platform for managing genetic test results, patient reports, and lab workflow automation for healthcare providers.",
+    image: "https://placehold.co/600x400/14b8a6/ffffff?text=Genematric",
+    technologies: ["React", "Node.js", "Express", "PostgreSQL", "Prisma"],
+    demoLink: "https://genematric.example.com/",
+    codeLink: "https://github.com",
+  },
+  {
+    title: "Eve Doctor",
+    description: "A telemedicine app connecting patients with doctors for online consultations, appointment booking, prescriptions, and medical records.",
+    image: "https://placehold.co/600x400/ec4899/ffffff?text=Eve+Doctor",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "WebSockets"],
+    demoLink: "https://evedoctor.example.com/",
+    codeLink: "https://github.com",
+  },
+  {
+    title: "The BMET Medical Posting Community",
+    description: "A medical community platform for BMET professionals to share posts, publish blogs, and engage in discussions, with a full admin panel for content moderation and user management.",
+    image: "https://placehold.co/600x400/0284c7/ffffff?text=BMET+Medical+Community",
+    technologies: ["React", "Redux", "Node.js", "Express", "MongoDB"],
+    demoLink: "https://bmetmedical.example.com/",
+    codeLink: "https://github.com",
+  },
   {
     title: "Center Piece",
     description: "🚀 E-Commerce Cards Purchasing Platform – A scalable web app for seamless card purchasing, role-based management, real-time chat, and future-ready bidding system.",
