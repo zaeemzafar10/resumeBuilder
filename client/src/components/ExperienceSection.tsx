@@ -6,7 +6,7 @@ const experienceData = [
     title: "Backend Engineer",
     company: "Salsoft Pvt Ltd",
     location: "Karachi",
-    duration: "May 2024 — Present",
+    duration: "May 2024 — April 2026",
     description: "Working on MERN and PERN stack backend technologies using Node.js with Express.js framework. Implementing solutions with both NoSQL (MongoDB) and SQL (PostgreSQL) databases using Mongoose and Prisma ORMs. Building real-time applications with HTTP and WebSocket protocols. Integrating APIs with React.js for multiple dashboards and websites.",
     experienceLetter : null
   },
