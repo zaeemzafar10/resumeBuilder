@@ -82,8 +82,8 @@ export const certificationData = [
 
 export const projectsData = [
   {
-    title: "AI Resume's Analyzer",
-    description: "An AI-powered resume platform (currently in progress) where candidates build ATS-friendly resumes from their details and export PDFs in English and Dutch, with European language support planned. Candidates paste a job description with their profile to generate and save a tailored resume. HR pastes a job description, uploads bulk candidate resumes, and AI ranks the top 10 matches by skills, experience, and education scoring—then sends Zoom interview invites to selected candidates. Subscription-based access for HR and candidates.",
+    title: "TalentSync AI",
+    description: "An AI-powered resume platform where candidates build ATS-friendly resumes with coverletter from their details and export PDFs in one go in English and Dutch, with European language support planned. Candidates paste a job description with their profile to generate and save a tailored resume. HR pastes a job description with job details, uploads bulk candidate resumes, and AI ranks the top 10 matches by skills, experience, and education scoring—then sends Zoom interview invites to selected candidates. also show rejecetd candidates and show rejected reasons. Subscription-based access for HR and candidates.",
     image: resumeAiImage,
     technologies: ["Next.js", "Redux RTK Query", "Node.js", "Express", "MongoDB", "Pinecone", "RAG", "OpenAI", "Gemini AI"],
     demoLink: "https://german-resume-ai-builder.vercel.app/de",
